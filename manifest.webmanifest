@@ -1,0 +1,17 @@
+{
+  "name": "Much-Grow R&D Operations",
+  "short_name": "Much-Grow",
+  "description": "Offline-first mushroom farm mission control and R&D operations",
+  "start_url": "./overview",
+  "display": "standalone",
+  "background_color": "#151815",
+  "theme_color": "#151815",
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

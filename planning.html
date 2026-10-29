@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="./favicon.svg" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#151815" />
+    <meta name="description" content="Much-Grow R&D farm operations and mission control" />
+    <link href="./_app/immutable/entry/start.CYTj93aW.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/BKpfceLW.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/Cv5FHFWZ.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/CehZtQq6.js" rel="modulepreload">
+		<link href="./_app/immutable/entry/app.BekVVR7I.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/HclGiUj8.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/xihTtKlq.js" rel="modulepreload">
+		<link href="./_app/immutable/nodes/0.D0dFIWkq.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/4y_OPtoh.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/BOFLt7EQ.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/ioFlFJt72.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/C8y2M_bE.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/CGLHFEEo.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/CXTpoxSu.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/CKoG1S3r.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/Dj8NAxLi.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/B0x2aLVB.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/CugfMeEt.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/BKDrvz0T.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/DqNMwNK32.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/B-I8EgE02.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/DQSalOV92.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/rRirtGmV2.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/DXJ3ycWf2.js" rel="modulepreload">
+		<link href="./_app/immutable/nodes/13.DMAMSyVE.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/Ho3ADf0D.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/BctKCf-V.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/C-cErzaG.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/pbYQuL1y.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/HJ1ZGPj92.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/Dr3OxhcM2.js" rel="modulepreload">
+		<link href="./_app/env.js" rel="modulepreload">
+		
+		<link href="./_app/immutable/assets/StatusBadge.CwvHFzPg.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/0.Btlwbycx.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/LocalOnlyNotice.CgwlMKVZ.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/13.Bio78QXt.css" rel="stylesheet">
+  </head>
+  <body data-sveltekit-preload-data="hover">
+    <div style="display: contents">
+			<script>
+				{
+					__sveltekit_1bj5wmr = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						assets: "/much-grow",
+						env: null
+					};
+
+					const element = document.currentScript.parentElement;
+
+					import("./_app/env.js").then(({ env }) => {
+						__sveltekit_1bj5wmr.env = env;
+
+						Promise.all([
+							import("./_app/immutable/entry/start.CYTj93aW.js"),
+							import("./_app/immutable/entry/app.BekVVR7I.js")
+						]).then(([kit, app]) => {
+							kit.start(app, element);
+						});
+					});
+
+					if ('serviceWorker' in navigator) {
+						const script_url = './service-worker.js';
+						const policy = globalThis?.window?.trustedTypes?.createPolicy(
+							'sveltekit-trusted-url',
+							{ createScriptURL(url) { return url; } }
+						);
+						const sanitised = policy?.createScriptURL(script_url) ?? script_url;
+						addEventListener('load', function () {
+							navigator.serviceWorker.register(sanitised);
+						});
+					}
+				}
+			</script>
+		</div>
+  </body>
+</html>

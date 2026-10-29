@@ -1,0 +1,1 @@
+export const env={PUBLIC_MUCHGROW_API:"",PUBLIC_MUCHGROW_DEMO_DEFAULT:"on"}
